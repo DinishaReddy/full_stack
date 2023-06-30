@@ -1,0 +1,16 @@
+table,th,tr,td{
+    border: 1px solid rgb(192, 82, 82)
+}
+#spacett{
+    padding-left: 5;
+}
+h1{
+    border: 2px solid rgb(198, 132, 132)
+    
+}
+body{
+    background-color: rgb(193, 213, 220)
+}
+table{
+    background-color: rgb(228, 216, 202)
+}
