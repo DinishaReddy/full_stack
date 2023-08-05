@@ -1,0 +1,17 @@
+#head1{
+    text-align: center;
+    font-family: Lucida;
+}
+.mb-3{
+    color: rgb(214, 208, 195);
+
+}
+#list{
+    text-align: center;
+}
+body{
+    margin: 15%;
+}
+.weish{
+    border: 2px, solid , rgb(251, 185, 63)
+}
