@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(75, 81, 79);
+    display: grid;
+  
+}
+button{
+    font-family: sans-serif;
+    font-style: italic;
+    background: transparent;
+    padding:0px 3px; 
+    border: 3px solid #fff;
+    font-size: 10px;
+    color: rgb(139, 255, 216);
+    
+}
+.container{
+    position: absolute;
+    left: 150px;
+    top: 20%;
+    color: #fff;
+}
+.chat{
+    height: 300px;
+    width: 300px;
+}
+.register{
+    grid-area: register;
+}
+.logo{
+    grid-area: logo;
+    /* margin: 270px 100px; */
+    position: absolute;
+    right:15%;
+    bottom:0%;
+    animation: logo 4s linear forwards;
+}
+@keyframes logo{
+    0%{
+        bottom:0;
+        opacity:0;
+    }
+    50%{
+        bottom:200px;
+        opacity: 1;
+    }
+    100%{
+        bottom:200px;
+        opacity:1
+    }
+
+    
+}
+.head h3{
+    color: #fff;
+    left:20px;
+}
+h1 span{
+      color: rgb(118, 212, 181);
+}
+.timer{
+    display: flex;
+    padding-bottom: 20px;
+}
+.timer div{
+    flex-basis:100px;
+}
+.timer h4{
+    font-size: 30px;
+}
+.final{
+    display: grid;
+    grid-template-areas: "register logo"
+                          "agenda" "agenda" ;
+    grid-template-columns: auto auto;
+}
+strong{
+    font-size: 20px;
+    color: rgb(29, 29, 26);
+}
+.details{
+    grid-area: details;
+    padding-top: 10px;
+}
+.details h2{
+    left: 180;
+}
+.agenda{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.agenda h2{
+    grid-area: agenda;
+
+}
+.grid2{
+    display: grid;
+    grid-template-areas: "details   agenda";
+    grid-template-columns: auto auto;
+}
